@@ -13,6 +13,8 @@
 		A91C4F4C1ECAF83C005E9374 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A91C4F4B1ECAF83C005E9374 /* Assets.xcassets */; };
 		A91C4F4F1ECAF83C005E9374 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A91C4F4D1ECAF83C005E9374 /* LaunchScreen.storyboard */; };
 		A91C4F5A1ECAF83C005E9374 /* FoundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91C4F591ECAF83C005E9374 /* FoundTests.swift */; };
+		A98A90161ECB32BF00659D5E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A98A90151ECB32BF00659D5E /* MapKit.framework */; };
+		A98A90181ECB49BC00659D5E /* Pin.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98A90171ECB49BC00659D5E /* Pin.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		A91C4F551ECAF83C005E9374 /* FoundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoundTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A91C4F591ECAF83C005E9374 /* FoundTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundTests.swift; sourceTree = "<group>"; };
 		A91C4F5B1ECAF83C005E9374 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A98A90151ECB32BF00659D5E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		A98A90171ECB49BC00659D5E /* Pin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pin.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A98A90161ECB32BF00659D5E /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +67,7 @@
 				A91C4F431ECAF83C005E9374 /* Found */,
 				A91C4F581ECAF83C005E9374 /* FoundTests */,
 				A91C4F421ECAF83C005E9374 /* Products */,
+				A98A90141ECB32BF00659D5E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,6 +85,7 @@
 			children = (
 				A91C4F441ECAF83C005E9374 /* AppDelegate.swift */,
 				A91C4F461ECAF83C005E9374 /* ViewController.swift */,
+				A98A90171ECB49BC00659D5E /* Pin.swift */,
 				A91C4F481ECAF83C005E9374 /* Main.storyboard */,
 				A91C4F4B1ECAF83C005E9374 /* Assets.xcassets */,
 				A91C4F4D1ECAF83C005E9374 /* LaunchScreen.storyboard */,
@@ -94,6 +101,14 @@
 				A91C4F5B1ECAF83C005E9374 /* Info.plist */,
 			);
 			path = FoundTests;
+			sourceTree = "<group>";
+		};
+		A98A90141ECB32BF00659D5E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A98A90151ECB32BF00659D5E /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,6 +216,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A98A90181ECB49BC00659D5E /* Pin.swift in Sources */,
 				A91C4F471ECAF83C005E9374 /* ViewController.swift in Sources */,
 				A91C4F451ECAF83C005E9374 /* AppDelegate.swift in Sources */,
 			);
@@ -414,6 +430,7 @@
 				A91C4F601ECAF83C005E9374 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A91C4F611ECAF83C005E9374 /* Build configuration list for PBXNativeTarget "FoundTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +439,7 @@
 				A91C4F631ECAF83C005E9374 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
